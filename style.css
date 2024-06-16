@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header with Pattern */
+header {
+    background: url('pattern.png'); /* Add a pattern image file named 'pattern.png' in the root directory */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    background-size: cover;
+    background-color: #4CAF50; /* Fallback color */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Colorful Sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-left: 6px solid #1e88e5;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Enhance Button Appearance */
+nav ul li a:hover {
+    color: #FFD700; /* Gold */
+}
